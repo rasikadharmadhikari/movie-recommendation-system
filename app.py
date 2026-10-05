@@ -92,21 +92,21 @@ st.markdown(
     .stApp { background: linear-gradient(135deg, #0b1020, #17152d 55%, #24162e);
         color: #f4f5fb; font-family: "Inter", "Segoe UI", Arial, sans-serif; }
     html, body, [class*="css"] { font-family: "Inter", "Segoe UI", Arial, sans-serif; }
-    .block-container { max-width: 1180px; padding: 2rem 2rem 3rem; }
+    .block-container { max-width: 1180px; padding: .8rem 1.5rem 2rem; }
     [data-testid="stHeader"] { background: transparent; }
-    .hero { padding: 1.55rem 1.8rem 1.45rem; border: 1px solid rgba(255,255,255,.12);
-        border-radius: 22px; background: radial-gradient(circle at 85% 20%,
+    .hero { padding: .85rem 1.25rem .8rem; border: 1px solid rgba(255,255,255,.12);
+        border-radius: 16px; background: radial-gradient(circle at 85% 20%,
         rgba(234,88,121,.28), transparent 35%), linear-gradient(110deg,
-        rgba(31,41,79,.95), rgba(57,28,63,.9)); box-shadow: 0 18px 55px rgba(0,0,0,.25);
-        margin-bottom: 1rem; }
-    .eyebrow, .section-label { color: #ffb4c0; font-size: .78rem; font-weight: 800;
+        rgba(31,41,79,.95), rgba(57,28,63,.9)); box-shadow: 0 10px 28px rgba(0,0,0,.2);
+        margin-bottom: .65rem; }
+    .eyebrow, .section-label { color: #ffb4c0; font-size: .68rem; font-weight: 800;
         letter-spacing: .16em; }
-    .hero h1 { color: #fff; font-size: clamp(1.8rem, 4vw, 3.2rem); margin: .25rem 0 .35rem; }
-    .hero p { color: #e4e6f1; font-size: .98rem; max-width: 680px; margin: 0; line-height: 1.55; }
+    .hero h1 { color: #fff; font-size: clamp(1.45rem, 3vw, 2.35rem); margin: .18rem 0 .22rem; }
+    .hero p { color: #e4e6f1; font-size: .82rem; max-width: 680px; margin: 0; line-height: 1.35; }
     .metric { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1);
-        border-radius: 14px; padding: .7rem; text-align: center; }
-    .metric strong { display: block; color: #fff; font-size: 1.15rem; }
-    .metric span { color: #d5d8e8; font-size: .8rem; }
+        border-radius: 10px; padding: .42rem .55rem; text-align: center; }
+    .metric strong { display: block; color: #fff; font-size: .95rem; }
+    .metric span { color: #d5d8e8; font-size: .68rem; }
     .movie-card { padding: .75rem .85rem; min-height: 7.2rem; border: 1px solid rgba(255,255,255,.12);
         border-radius: 14px; background: rgba(255,255,255,.06); }
     .movie-card h4 { color: #fff; margin: 0 0 .45rem; font-size: .95rem; line-height: 1.3; }
@@ -121,6 +121,7 @@ st.markdown(
     .stSelectbox label, .stSlider label { color: #f4f5fb !important; font-weight: 700 !important; }
     .stCaption, small { color: #d0d3e1 !important; }
     div[data-testid="stHorizontalBlock"] { gap: .8rem; }
+    div[data-testid="stVerticalBlock"] > div { gap: .35rem; }
     .insight-title { color: #fff; font-size: 1.05rem; font-weight: 700; margin: .3rem 0; }
     div.stButton > button[kind="primary"] { background: linear-gradient(90deg, #e85d75,
         #a855f7); border: 0; border-radius: 12px; font-weight: 700; }
