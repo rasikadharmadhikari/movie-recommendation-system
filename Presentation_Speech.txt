@@ -1,0 +1,28 @@
+
+2-MINUTE PRESENTATION SPEECH
+
+Good morning respected mam and everyone.
+
+My mini-project is titled "Movie Recommendation System Using Machine Learning."
+
+The main aim of this project is to recommend movies that are similar to a movie selected by the user.
+
+For example, if the user selects Toy Story, the system analyzes its movie genres and recommends other movies with similar content.
+
+For this project, I have used the MovieLens dataset. It contains information such as movie ID, movie title and genres.
+
+The main technique used is Content-Based Filtering. In this approach, recommendations are made using the content or features of the movies.
+
+First, I preprocess the movie genre data. Then I use TF-IDF, which converts the genre text into numerical vectors that can be processed by the computer.
+
+After that, I use Cosine Similarity to compare the movie vectors. A higher similarity score means that two movies are more similar.
+
+The system then sorts the similarity scores and displays the top recommended movies.
+
+I have also developed a simple graphical user interface using Streamlit. The user can select a movie, click the recommendation button, and see similar movies. The interface can also display movie posters and graphs.
+
+The project demonstrates important machine learning concepts such as data preprocessing, text vectorization, similarity calculation and data visualization.
+
+In the future, this system can be improved by considering user ratings, watch history and collaborative filtering.
+
+Thank you.

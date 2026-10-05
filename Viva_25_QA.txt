@@ -1,0 +1,77 @@
+
+25 VIVA QUESTIONS AND EASY ANSWERS
+
+1. What is your project?
+Answer: My project is a Movie Recommendation System that recommends movies similar to a movie selected by the user.
+
+2. What is the main objective?
+Answer: The objective is to recommend relevant and similar movies automatically.
+
+3. Which dataset did you use?
+Answer: I used the MovieLens dataset.
+
+4. What type of recommendation system is used?
+Answer: Content-Based Filtering.
+
+5. What is Content-Based Filtering?
+Answer: It recommends items based on their features or content.
+
+6. What features are used in your project?
+Answer: Mainly movie title and movie genres, with the genres used for similarity calculation.
+
+7. Which technique converts text into numbers?
+Answer: TF-IDF.
+
+8. What is TF-IDF?
+Answer: TF-IDF converts text into numerical values based on the importance of words in the data.
+
+9. Why do you use TF-IDF?
+Answer: Because the computer needs numerical vectors to compare movie information.
+
+10. Which method is used to compare movies?
+Answer: Cosine Similarity.
+
+11. What is Cosine Similarity?
+Answer: It measures how similar two numerical vectors are.
+
+12. What does a high similarity score mean?
+Answer: It means the two movies have more similar content.
+
+13. Is Cosine Similarity an ML algorithm?
+Answer: It is a similarity measure used in the recommendation system.
+
+14. What is the main ML technique in your project?
+Answer: Content-Based Filtering.
+
+15. Is this supervised or unsupervised learning?
+Answer: It is generally treated as an unsupervised/information-retrieval style recommendation approach because we are not training a labeled target for prediction.
+
+16. What is data preprocessing?
+Answer: It means cleaning and preparing data before using it in the model.
+
+17. What preprocessing did you perform?
+Answer: I cleaned the genre text and converted the genre information into a suitable numerical representation using TF-IDF.
+
+18. What is Streamlit?
+Answer: Streamlit is a Python framework used to create simple web-based graphical interfaces for data and ML applications.
+
+19. Why did you use Streamlit?
+Answer: It is easy to use and allows us to create a GUI directly using Python.
+
+20. What is the input of your system?
+Answer: The selected movie.
+
+21. What is the output?
+Answer: A list of movies similar to the selected movie.
+
+22. Why did you add graphs?
+Answer: Graphs make the dataset and recommendation results easier to understand visually.
+
+23. Can your system recommend completely different movies?
+Answer: It mainly recommends movies with similar content, so recommendations depend on the available genre information.
+
+24. What is one limitation?
+Answer: It mainly considers movie content/genres and does not fully consider individual user preferences.
+
+25. How can you improve the project?
+Answer: I can add user ratings, watch history and collaborative filtering to provide more personalized recommendations.
